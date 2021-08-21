@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="363dp"
+        android:layout_height="654dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="343dp"
+            android:layout_height="268dp"
+            app:srcCompat="@drawable/download" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="CONTACT: 9445802013"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="@color/white"
+            android:textSize="27dp"/>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="E-MAIL:"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="@color/white"
+            android:textSize="27dp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsblack"
+            android:text="supprethaa444@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:fontFamily="monospace"
+            android:text=""
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="LINKEDIN:"
+            android:fontFamily="@font/poppinsblack"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Supprethaa Shankar"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:fontFamily="@font/poppinsblack"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:fontFamily="@font/poppinsblack"
+            android:text="INSTAGRAM:"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="supprethaa_1802"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:fontFamily="@font/poppinsblack"/>
+
+        />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
